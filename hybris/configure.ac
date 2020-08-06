@@ -78,7 +78,7 @@ AC_ARG_ENABLE(ubuntu-camera-headers,
   [ubuntu_camera_headers="no"])
 AM_CONDITIONAL( [WANT_UBUNTU_CAMERA_HEADERS], [test x"$ubuntu_camera_headers" = x"yes"])
 
-WANT_WAYLAND_EGL="no"
+WANT_WAYLAND_EGL="yes"
 
 AC_ARG_ENABLE(wayland,
   [  --enable-wayland            Enable wayland support (default=disabled)],
